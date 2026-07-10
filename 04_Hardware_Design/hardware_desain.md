@@ -1,6 +1,6 @@
 # 🛠️ Dokumentasi Desain Perangkat Keras (Hardware Design)
 
-Dokumen ini memuat spesifikasi teknis, skematik, dan detail interkoneksi dari 2 unit PCB custom yang dirancang menggunakan **KiCad E.D.A. 9.0.4** untuk sistem kendali otonom ASV Gamantaray Safinah One 2026.
+Dokumen ini memuat spesifikasi teknis, skematik, dan detail interkoneksi dari 2 unit PCB custom yang dirancang menggunakan **KiCad E.D.A.** untuk sistem kendali otonom ASV Gamantaray Safinah One 2026.
 
 ---
 

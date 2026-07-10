@@ -5,6 +5,7 @@ Dokumen ini memuat spesifikasi teknis, skematik, dan detail interkoneksi dari 2 
 ---
 
 ## 1. Board 1: Power Distribution Board (PDB) Control System
+[PDB Control System Schematic](PDBControl_Schematic.pdf)
 * **Nama File Skematik:** `Power Distribution Board.kicad_sch`
 * **Fungsi Utama:** Menerima daya dari baterai utama, menyediakan fitur proteksi, dan mendistribusikan tegangan (baik langsung maupun regulasi) ke seluruh sub-sistem kapal.
 

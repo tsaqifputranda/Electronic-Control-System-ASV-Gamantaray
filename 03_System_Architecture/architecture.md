@@ -1,2 +1,2 @@
 ### 📊 Diagram Blok Power Control Sistem Elektronika ASV
-![Diagram Blok Power Control](Power_Control_Architecture_(1).jpg)
+![Diagram Blok Power Control](PDB_Control_System_Diagram.jpg)

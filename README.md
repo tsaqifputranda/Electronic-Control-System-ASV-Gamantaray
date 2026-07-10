@@ -6,7 +6,7 @@ Selamat datang di dokumentasi sistem kontrol elektronika kapal otonom Gamantaray
 1. [Project Overview](README.md)
 2. [Spesifikasi Sistem (Requirements)](02_Requirements/requirements.md)
 3. [Arsitektur & Diagram Blok](03_System_Architecture/architecture.md)
-4. [Desain Hardware & PCB](04_Hardware_Design/BOM.md)
+4. [Desain Hardware & PCB](04_Hardware_Design/hardware_desain.md)
 5. [Power Management](05_Power_Management/power_management.md)
 6. [Wiring & Integration](06_Wiring_&_Integration/integration_notes.md)
 7. [Testing](07_Testing/test_procedures.md)

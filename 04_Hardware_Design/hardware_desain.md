@@ -8,10 +8,6 @@ Dokumen ini memuat spesifikasi teknis, skematik, dan detail interkoneksi dari 2 
 * **Skematik:** ![PDB Control System Schematic](PDBControl_Schematic.jpg)
 * **PCB Layout:** ![PDB Control System PCB Layout](PCB_PDBControl.jpeg)
 * **3D Model:** ![PDB Control System 3D Model](3D_Model_PDBControl.jpeg)
-
-* **File Skematik:** 💾 **[Download Schematic - PDB Control System](./PDB_Control_System.kicad_sch)**
-* **File PCB Layout:** `💾 **[Download PCB Layout - PDB Control System](./PDB_Control_System.kicad_pcb)**
-* **File 3D Model:** 💾 **[Download 3D Model - PDB Control System](./PCB_Carrier.step)**
 * **Fungsi Utama:** Menerima daya dari baterai utama, menyediakan fitur proteksi, dan mendistribusikan tegangan (baik langsung maupun regulasi) ke seluruh sub-sistem kapal.
 
 ### A. Fitur Proteksi & Input Utama
@@ -30,10 +26,17 @@ Dokumen ini memuat spesifikasi teknis, skematik, dan detail interkoneksi dari 2 
 | **+12V (Regulated)**| XT30-F (J6) | **Mini560 Buck Converter** (U3) | Router TP-Link Archer-MR400 | LED D7 (Resistor 2.2kΩ), C6 (100µF 35V) |
 | **+12V (Regulated)**| 4x Conn 2-Pin (J7-J10) | Pararel dari output Mini560 | 4x Cooling DC Fan 12V | Jalur pararel langsung untuk kipas pendingin |
 
+### C. Download File 
+* **File Skematik:** 💾 **[Download Schematic - PDB Control System](./PDB_Control_System.kicad_sch)**
+* **File PCB Layout:** `💾 **[Download PCB Layout - PDB Control System](./PDB_Control_System.kicad_pcb)**
+* **File 3D Model:** 💾 **[Download 3D Model - PDB Control System](./PCB_Carrier.step)**
+
 ---
 
 ## 2. Board 2: PCB Carrier Board (Sensor & Microcontroller Interface)
-* **Nama File Skematik:** `PCB Carrier.kicad_sch`
+* **Skematik:** ![Carrier Board Schematic](PCBCarrier_Schematic.jpg)
+* **PCB Layout:** ![Carrier Board PCB Layout](PCB_CarrierBoard.jpeg)
+* **3D Model:** ![Carrier Board 3D Model](3D_Model_CarrierBoard.jpeg)
 * **Fungsi Utama:** Sebagai *breakout board* pusat untuk mikrokontroler STM32 Black Pill, manajemen sensor jarak (TOF), dan interkoneksi data ke Raspberry Pi serta aktuator indikator.
 
 ### A. Spesifikasi Power Input Board
@@ -64,5 +67,12 @@ Output sinyal kontrol untuk lampu indikator status kapal dihubungkan via konekto
 * Pin 2: `PA2-LED STATE` (Pin kontrol data addressable LED)
 * Pin 3: `+5V` (Suplai daya LED strip)
 
-### C. Fitur Mekanik
+### C. Download File 
+* **File Skematik:** 💾 **[Download Schematic - Carrier Board](./Carrier_Board.kicad_sch)**
+* **File PCB Layout:** `💾 **[Download PCB Layout - Carrier Board](./Carrier_Board.kicad_pro.kicad_pcb)**
+* **File 3D Model:** 💾 **[Download 3D Model - Carrier Board](./PCB_Carrier.step)**
+
+---
+
+##  Fitur Mekanik
 * Kedua PCB dilengkapi dengan **4x Mounting Hole Pad (H1 - H4)** berukuran standar untuk pemasangan baut spacer kokoh di dalam box komponen ASV.
